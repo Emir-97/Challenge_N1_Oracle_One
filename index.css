@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100;
+	background-image: url("image.gif");
+}
+
+h1{
+	color: white;
+	font-weight: bolder;
+	font-size: 2.3em;
+	font-family: "Times New Roman",serif;
+	text-align: center;
+	margin: 5%;
+}
+
+.container{
+	box-sizing: content-box;
+	width: 13em;
+	height: 10em;
+	background: white;
+	border-radius: 10px;
+}
+
+#encriptado{
+	position: relative;
+	left: 23em;
+	padding: 1%;
+	margin: 0.1%;
+}
+
+#decodificacion{
+	position: relative;
+	left: 41em;
+	bottom: 11.78em;
+	padding: 1%;
+	margin: 0.1%;
+}
+
+input{
+	width: 100%;
+	height: 15%;
+	border-radius: 5px;
+	background: #FDFEFE;
+	font-size: 1.3em;
+}
+
+
+textarea{
+	margin: 4%;
+	box-sizing: content-box;
+	width: 100%;
+	height: 15%;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size: 1.4em;
+}
+
+
+button{
+	position: relative;
+	right: 1%;
+    width: 100%;
+	height: 17%;
+	border-radius: 5px;
+	margin: 3%;
+	background: #3498DB;
+	color: white;
+	font-weight: bolder;
+}
+
+.copy-button{
+	
+}
+
+.invisible{
+	display: none;
+}
+
+footer{
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
+button:hover {
+	background: #48C9B0;
+}

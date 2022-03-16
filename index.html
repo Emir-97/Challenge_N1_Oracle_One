@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge 1</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+ <h1>Software de Encriptación y  Decodificación de mensajes</h1>
+
+ <!-- Cifrar el Mensaje -->
+  <div id="encriptado" class="container">
+  	<input type="text" name="entrada" id="texto-inicial">
+    <textarea id="resultado-codificacion" class="invisible"></textarea>
+  	<button id="boton-encriptar">Encriptar</button>
+    <button class="copy-button" id="copy-button-coded">Copiar</button>
+  </div>
+
+  <!-- Descifrar el Mensaje -->
+  <div id="decodificacion" class="container">	
+  	<input type="text" name="codigo" id="codigo-encriptado">
+  	<textarea id="resultado-decodificacion" class="invisible"></textarea>
+  	<button id="boton-decodificar">Decodificar</button>
+    <button class="copy-button" id="copy-button-decoded">Copiar</button>
+  </div>
+
+  <!-- Datos del Desarrollador -->
+  <footer><div id="info-dev">Developed software by Emir Zahir Zatta Miranda. Linkedin:https://www.linkedin.com/in/emir-zahir-zatta-miranda-2b1612172/</div></footer>
+
+  <!-- Scripts Javascript -->
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/encriptar.js"></script>
+  <script type="text/javascript" src="js/validar.js"></script>
+  <script type="text/javascript" src="js/copy-button.js"></script>
+</body>
+</html>
